@@ -12,7 +12,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import { urlFor } from "@/sanity/lib/image";
 import useCartStore from "@/store";
 import { useAuth, useUser } from "@clerk/nextjs";
-import { Divide, Heart, ShoppingBag, Trash } from "lucide-react";
+import { Heart, ShoppingBag, Trash } from "lucide-react";
 import PayPalLogo from "@/images/paypalLogo.png"
 import Image from "next/image";
 import Link from "next/link";

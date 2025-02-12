@@ -5,7 +5,6 @@ import React, { useState } from "react";
 import {motion , AnimatePresence} from "motion/react";
 import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";
-import { buttonVariants } from "./ui/button";
 
 interface Props {
     images?: Array<{

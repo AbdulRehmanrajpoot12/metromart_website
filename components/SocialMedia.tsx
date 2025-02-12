@@ -4,7 +4,6 @@ import { TooltipContent, TooltipTrigger } from "./ui/tooltip";
 import Link from "next/link";
 import { Github, Instagram, Linkedin } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { title } from "process";
 
 interface Props{
     className?: string;
